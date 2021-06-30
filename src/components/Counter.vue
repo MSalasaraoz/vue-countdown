@@ -1,30 +1,30 @@
 <template>
   <div v-if="loaded">
       <section class="text-3xl flex justify-center content-center flex-col mx-auto text-center">
-          Buy Now
+          Remaing Time
       </section>
       <section class="flex text-6xl justify-center content-center">
           <div class="days mr-2 relative">
               {{displayDays}}
-              <div class="label text-sm absolute bottom-0">days</div>
+              <div class="label text-sm absolute top-20 bottom-0">days</div>
           </div>
-          <span class="leading-snug">:</span>
+          <span class="">:</span>
 
           <div class="hours mx-2 relative">
               {{displayHours}}
-              <div class="label text-sm absolute bottom-0">hours</div>
+              <div class="label text-sm absolute top-20 bottom-0">hours</div>
           </div>
-          <span class="leading-snug">:</span>
+          <span class="">:</span>
 
           <div class="minutes mx-2 relative">
               {{displayMinutes}}
-              <div class="label text-sm absolute bottom-0">minutes</div>
+              <div class="label text-sm absolute top-20 bottom-0">minutes</div>
           </div>
-          <span class="leading-snug">:</span>
+          <span class="">:</span>
 
           <div class="seconds ml-2 relative">
               <div>{{displaySeconds}}</div>
-              <div class="label text-sm absolute bottom-0">seconds</div>
+              <div class="label text-sm absolute top-20 bottom-0">seconds</div>
           </div>
       </section>
   </div>
